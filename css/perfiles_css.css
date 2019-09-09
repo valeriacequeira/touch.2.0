@@ -1,0 +1,15 @@
+.rounded-circle{
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: columns ;
+	
+
+
+}
+
+p .text-light bg-dark{
+	padding: 5%;
+	margin:auto;
+	text-align: center;
+}
