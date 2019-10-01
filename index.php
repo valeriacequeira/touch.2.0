@@ -27,82 +27,76 @@
 
               <link rel="stylesheet" href="bootstrap/style.css">
 
-              <link rel="stylesheet" href="css_registro/estilo.css">
-
-              <link rel="stylesheet" href="css_/footer.css">
-
-
-
-
-
+              <link rel="stylesheet" href="css/estilo.css">
               <link rel="stylesheet" href="css/estilo_registro_login.css">
               <link rel="stylesheet" href="css/perfiles_css.css">
+              <link rel="stylesheet" href="css/estilo-registro.css">
 
 
          
         </head>
 
 
-              <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-              <div class="site-wrap">
+          <!-- navbar -->
 
-                <div class="site-mobile-menu site-navbar-target">
-                  <div class="site-mobile-menu-header">
-                    <div class="site-mobile-menu-close mt-3">
-                      <span class="icon-close2 js-menu-toggle"></span>
-                    </div>
-                  </div>
-                  <div class="site-mobile-menu-body"></div>
+          <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+          <div class="site-wrap">
+
+            <div class="site-mobile-menu site-navbar-target">
+              <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                  <span class="icon-close2 js-menu-toggle"></span>
                 </div>
-
-                <!-- comienza navbar -->
-
-                <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-
-                  <div class="container-fluid">
-                    <div class="d-flex align-items-center">
-                      <div class="site-logo mr-auto w-25"><a href="index.php">Touch 2.0</a></div>
-
-                      <div class="mx-auto text-center">
-                        <nav class="site-navigation position-relative text-right" role="navigation">
-                          <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
-                            <li><a href="#" class="nav-link">Nosotros</a></li>
-                            <li><a href="preguntas_frecuentes.php" class="nav-link">Preguntas frecuentes</a></li>
-                            <li><a href="#" class="nav-link">Testimonios</a></li>
-                          </ul>
-                        </nav>
-                      </div>
+              </div>
+              <div class="site-mobile-menu-body"></div>
+            </div>
 
 
-                     <!-- boton registrarse -->
+            <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
 
-                      <div class="ml-auto w-25">
-                        <nav class="site-navigation position-relative text-right" role="navigation">
-                          <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                            <li class="cta"><a href="form_registro.php" class="nav-link"><span>Registrate</span></a></li>
-                          </ul>
-                        </nav>
-                        <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
-                      </div>
-                    </div>
+              <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                  <div class="site-logo mr-auto w-25"><a href="index.php">Touch 2.0</a></div>
+
+                  <div class="mx-auto text-center">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                      <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
+                        <li><a href="#" class="nav-link">Nosotros</a></li>
+                        <li><a href="preguntas_frecuentes.php" class="nav-link">Preguntas frecuentes</a></li>
+                        <li><a href="testimonios.php" class="nav-link">Testimonios</a></li>
+                      </ul>
+                    </nav>
                   </div>
 
-                </header>
+
+                  <!-- boton de registro -->
+
+                  <div class="ml-auto w-25">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                      <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+                        <li class="cta"><a href="form_registro.php" class="nav-link"><span>Registrate</span></a></li>
+                      </ul>
+                    </nav>
+                    <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
+                  </div>
+                </div>
+              </div>
+
+            </header>
 
 
-                <!-- imagen de fondo  -->
+            <!-- seccion intro -->
 
-                <div class="intro-section" id="home-section">
+            <div class="intro-section" id="home-section">
 
-                   <div class="slide-1" style="background-image: url('imagen/amigosuno.jpg');" data-stellar-background-ratio="0.5">
-                      <div class="container">
+                <div class="slide-1" style="background-image: url('imagen/amigosuno.jpg');" data-stellar-background-ratio="0.5">
+                  <div class="container">
+                    <div class="row align-items-center">
+                      <div class="col-12">
                         <div class="row align-items-center">
-                          <div class="col-12">
-                            <div class="row align-items-center">
-                              <div class="col-lg-6 mb-4">
-                                </div>
-                          
+
 
         <!-- comienza el formulario -->
 
@@ -121,13 +115,13 @@
                   					<div class="input-group-append">
                   						 <span class="input-group-text"><i class="fas fa-user"></i></span>
                   					</div>
-                  				  	<input type="text" name="" class="form-control input_user" value="" placeholder="usuario">
+                  				  	<input type="email" name="email" class="form-control input_user" value="" placeholder="usuario">
                   					</div>
                   					  <div class="input-group mb-2">
                   					   <div class="input-group-append">
                   							 <span class="input-group-text"><i class="fas fa-key"></i></span>
                   				  	</div>
-                  							<input type="password" name="" class="form-control input_pass" value="" placeholder="Contraseña">
+                  							<input type="password" name="contrasena" class="form-control input_pass" value="" placeholder="Contraseña">
                   					</div>
                   					<div class="form-group">
                   				  	<div class="custom-control custom-checkbox">
@@ -165,16 +159,13 @@
 
                     <div class="row">
                           <div class="color1 col-xs-12 col-sm-6 col-md-4">
-                              <h2 class="perfil.nombre">Veronica Leiva</h2>
+                              <h2 class="perfil-nombre">Angelina Jolie</h2>
                                 <img class="rounded-circle" src="imagen/person_2.jpg" alt="perfil1">
-                                    <div class="parrafo">
+                                    <div  class="parrafo">
                                        <p class= "text-light bg-dark">
-                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                           nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                           sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                           “En Touch 2.0 hay muchas personas en la misma que yo.
+
+                                            Soy de EEUU y ahora me encuentro estudiando en Buenos Aires, gracias a esta aplicacion pude hacer  amigos y amigas para no aburrirme y salir a divertirme los fines de semana...y no descarto conocer al amor de mi vida!!”.
                                         </p>
                                     </div>
                           </div>
@@ -182,32 +173,24 @@
                                          <!-- perfil 2 -->
 
                           <div class="color1 col-xs-12 col-sm-6 col-md-4">
-                              <h2>Sofia Sorhanet</h2>
+                              <h2 class="perfil-nombre">Susana Gimenez</h2>
                                 <img class="rounded-circle" src="imagen/person_3.jpg" alt="perfil2">
                                     <div class="parrafo">
                                        <p class= "text-light bg-dark">
-                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                           nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                           sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                           Al principio tenia mis prejuicios con este tipo de aplicaciones,luego una amiga me la recomendo y ahora no puedo parar ...me encanta!! Es una app que me permite conocer personas con mucha seguridad,sin tener que recibir correos fuera de lugar o malintencionados,en fin,la super recomiendo!!
                                         </p>
                                     </div>
                           </div>
                      
+ 
+                              <!-- perfil 3 -->
 
                                 <div class="color1 col-xs-12 col-sm-6 col-md-4">
-                                      <h2 class="perfil.nombre">Valeria Cequiera</h2>
-                                         <img class="rounded-circle" src="imagen/person_2.jpg" alt="perfil3">
+                                      <h2 class="perfil-nombre">Guillermo Andino</h2>
+                                         <img class="rounded-circle" src="imagen/muchacho.jpg" alt="perfil3">
                                           <div class="parrafo">
                                             <p class= "text-light bg-dark">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                                consequat. Duis aute irure dolor in reprehenderitin voluptate velit esse cillum dolore eu fugiat
-                                                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                “Encontré amistades,algo que hacia mucho tiempo no encontraba,debido a mi  exigente trabajo ,tambien me permitio lograr una compañía virtual a cada lado que voy, y también algo de romance, jaja.”
                                             </p>
                                          </div>
                                    </div>
@@ -216,52 +199,14 @@
                      </div>
 
 
+   <!-- comienza el footer -->
+<?php 
 
-               <!-- comienza el footer -->
- 
-               <div class="footer">
-                  <div class="container">
+require_once("footer.php");
 
-                      <hr>
-                          <div class="text-center center-block">
-                              <p class="txt-railway">- Touch 2.0.com -</p>
-                              <br />
-                                  <a href="https://www.facebook.com/bootsnipp"><i class="fab fa-facebook-square"></i></a>
-                                <a href="https://twitter.com/bootsnipp"><i class="fab fa-instagram"></i></a>
-                                <a href="https://plus.google.com/+Bootsnipp-page"><i class="fab fa-google-plus-g"></i></a>
-                                <a href="mailto:bootsnipp@gmail.com"><i class="fas fa-envelope-square"></i></a>
-                          </div>
+ ?>
 
-                    </div>
-                </div>
-                 
-            
-
-                 
-
-             
-
-                  <script src="js/jquery-3.3.1.min.js"></script>
-                  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-                  <script src="js/jquery-ui.js"></script>
-                  <script src="js/popper.min.js"></script>
-                  <script src="js/bootstrap.min.js"></script>
-                  <script src="js/owl.carousel.min.js"></script>
-                  <script src="js/jquery.stellar.min.js"></script>
-                  <script src="js/jquery.countdown.min.js"></script>
-                  <script src="js/bootstrap-datepicker.min.js"></script>
-                  <script src="js/jquery.easing.1.3.js"></script>
-                  <script src="js/aos.js"></script>
-                  <script src="js/jquery.fancybox.min.js"></script>
-                  <script src="js/jquery.sticky.js"></script>
-
-                  
-                  <script src="js/main.js"></script>
-
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
 
+  

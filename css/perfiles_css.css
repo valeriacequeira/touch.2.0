@@ -3,13 +3,15 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: columns ;
-	
-
-
 }
 
-p .text-light bg-dark{
+p .text-light .bg-dark{
 	padding: 5%;
 	margin:auto;
 	text-align: center;
+}
+h2 .perfil-nombre{
+	text-align: center;
+	border: solid;
+	
 }

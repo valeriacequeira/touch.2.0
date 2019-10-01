@@ -1,4 +1,3 @@
-/*css vero*/
 p{
   color: #999;
   line-height: 25px;
@@ -7,8 +6,11 @@ h2,h3{
   color: #fff;
 }
 h2{
-	
   font-size: 18px;
+}
+img{
+  border-radius: inherit;
+  width: 40px;
 }
 .footer-top{
   background: #111;

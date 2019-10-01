@@ -29,14 +29,10 @@
 
               <link rel="stylesheet" href="css_registro/estilo.css">
 
-              <link rel="stylesheet" href="css_/footer.css">
-
-
-
-
 
               <link rel="stylesheet" href="css/estilo_registro_login.css">
-              <link rel="stylesheet" href="css/perfiles_css.css">
+              <link rel="stylesheet" href="touch.footer/css/estilo.css">
+          
 
 
          
@@ -213,34 +209,9 @@
       </div>
 
                  
-        
+  <!-- comienza  footer -->
 
-       <div class="footer">
-                  <div class="container">
-
-                      <hr>
-                          <div class="text-center center-block">
-                              <p class="txt-railway">- Touch 2.0.com -</p>
-                              <br />
-                                  <a href="https://www.facebook.com/bootsnipp"><i class="fab fa-facebook-square"></i></a>
-                                <a href="https://twitter.com/bootsnipp"><i class="fab fa-instagram"></i></a>
-                                <a href="https://plus.google.com/+Bootsnipp-page"><i class="fab fa-google-plus-g"></i></a>
-                                <a href="mailto:bootsnipp@gmail.com"><i class="fas fa-envelope-square"></i></a>
-                          </div>
-
-                    </div>
-
-                </div>
-
-
-
-
-
-
-
-
-
-
+<?php require_once("footer.php"); ?>
 
                   <script src="js/jquery-3.3.1.min.js"></script>
                   <script src="js/jquery-migrate-3.0.1.min.js"></script>
