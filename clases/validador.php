@@ -33,8 +33,8 @@ class Validador{
   }
   public function validarLogin($usuario,$datos){
     $errores = [];
-    if ($usuario == null) {
-      $errores[] = "Usuario no se encuentra registrado";
+       if ($usuario == null) {
+       $errores[] = "Usuario no se encuentra registrado";
     }  if (password_verify($datos["contrasena"], $usuario["contrasena"]) == false) {
         $errores[] = "La contrasenia es incorrecta";
       }
@@ -59,7 +59,7 @@ class Validador{
   // // La funcion retorna los errores
   // return $errores;
   // }
-  }
+  //}
 
   // Utilizando la funcion buscarPorEmail la cual me va a devolver toda la informacion del usuario (nombre, apellido, email, avatar) en forma de array que en este caso se lojara en la variable $usuario.
   // En este if evaluo si la funcion buscarPorEmail no me trajo ningun usuario le voy a retornar que no e encontro ningun usuario.
